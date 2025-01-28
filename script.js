@@ -1,5 +1,11 @@
 function shortcut(s1, s2) {
-  // your code here
+	let str="";
+   if(s1.empty()|| s2.empty()){
+	   return  str;
+   }
+	
+	str+=s1[0]+s2[0];
+	return str;
 }
 
 // Do not change the code below.
